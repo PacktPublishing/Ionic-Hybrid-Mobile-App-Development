@@ -1,0 +1,22 @@
+[
+  {
+    "id":"1",
+    "name":"London Eye",
+    "description":"Shows you a great view of the city"
+  },
+  {
+    "id":"2",
+    "name":"The Shard",
+    "description":"Highest building in London"
+  },
+  {
+    "id":"3",
+    "name":"Oxford Circus",
+    "description":"The place to shop in London"
+  },
+  {
+    "id":"4",
+    "name":"Buckingham Palace",
+    "description":"The Queen lives here"
+  }
+]

@@ -34,7 +34,7 @@
     "protractor": "^0.21.0",
     "selenium-webdriver": "^2.41.0",
     "sinon": "^1.9.1",
-    "uglify-js": "~2.4.0"
+   
   },
   "scripts": {
     "test": "bower install && grunt test -v"

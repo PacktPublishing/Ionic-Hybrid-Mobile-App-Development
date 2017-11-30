@@ -1,0 +1,69 @@
+<ion-view title="Services Demo">
+	<ion-content>
+		<ion-list>
+            <ion-item class="item-divider">
+               $http Services Demo
+            </ion-item>
+            <ion-item>
+                <button ng-click="testGetCall()"
+                        class="button button-balanced button-block">
+                    Test $http GET Call
+                </button>
+            </ion-item> 
+            <ion-item>
+                <button ng-click="testPostCall()"
+                        class="button button-positive button-block">
+                    Test $http POST Call
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ng-click="testPutCall()"
+                        class="button button-calm button-block">
+                    Test $http Put Call
+                </button>
+            </ion-item>
+            <ion-item class="item-divider">
+                Service Demo
+            </ion-item>
+            <ion-item>
+                <button ng-click="testSignupCall()"
+                        class="button button-balanced button-block">
+                    Test Signup Call
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ng-click="testLoginCall()"
+                        class="button button-positive button-block">
+                    Test Login Call
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ng-click="testLogoutCall()"
+                        class="button button-calm button-block">
+                    Test Logout Call
+                </button>
+            </ion-item>
+            <ion-item class="item-divider">
+                Factory Demo
+            </ion-item>
+            <ion-item>
+                <button ng-click="testFactoryMethod('getBooks')"
+                        class="button button-balanced button-block">
+                    Test GetBooks Call
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ng-click="testFactoryMethod('getBookDetails')"
+                        class="button button-positive button-block">
+                    Test GetBookDetails Call
+                </button>
+            </ion-item>
+            <ion-item>
+                <button ng-click="testFactoryMethod('addToFavourite')"
+                        class="button button-calm button-block">
+                    Test AddToFavourite Call
+                </button>
+            </ion-item>
+        </ion-list>
+	</ion-content>
+</ion-view>

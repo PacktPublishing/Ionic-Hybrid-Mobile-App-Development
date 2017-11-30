@@ -1,0 +1,32 @@
+.custom-tabs-bottom
+{
+	position: fixed;
+	bottom: 0px;
+	height:40px;
+	background-color: #387ef5;
+	width:100%;
+	z-index:99;
+}
+
+.custom-tabs-bottom a {
+	width:33%;
+	display: block;
+	float:left;
+	text-align: center;
+	color:#fff;
+	text-decoration: none;
+	padding-top: 10px;
+	height: 40px;
+}
+
+.custom-tabs-bottom a.active {
+
+}
+
+.category-list .icon {
+	font-size:30px;
+}
+
+.category-list .col {
+	text-align: center;
+}

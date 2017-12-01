@@ -1,0 +1,60 @@
+<ion-view view-title="JS Components">
+  <ion-content>
+    <ion-list>
+        <ion-item>
+            <button ng-click="openActionSheet()" class="button button-block button-positive">Open Action Sheet</button>
+        </ion-item> 
+         <ion-item>
+            <button ng-click="showBackDrop()" class="button button-block button-calm">Show Back Drop 1s</button>
+        </ion-item> 
+        <ion-item>
+            <button ng-click="showLoading()" class="button button-block button-balanced">Show Back Loading 1s</button>
+        </ion-item> 
+        <ion-item>
+            <div class="card">
+              <div class="item item-divider">
+                 Form Directives
+              </div>
+              <div class="item">
+                <ion-checkbox ng-model="isChecked">Checkbox Label - Status: {{isChecked}}</ion-checkbox>
+              </div>
+              <div class="item">
+                    Selected Value: {{ option }} <br><br>
+                    <ion-radio ng-model="option" ng-value="'1'">Option 1</ion-radio>
+                    <ion-radio ng-model="option" ng-value="'2'">Option 2</ion-radio>
+              </div>
+              <div class="item">
+                  Toggle Status: {{ isOpen }} <br><br>
+                    <ion-toggle ng-model="isOpen" toggle-class='toggle-calm'>Open Drawer</ion-checkbox>
+              </div>
+              <div class="item">
+                    
+              </div>
+            </div>
+        </ion-item>
+    </ion-list>
+     <ion-list
+             show-delete="shouldShowDelete"
+             show-reorder="shouldShowReorder"
+             can-swipe="listCanSwipe">
+        <ion-item ng-repeat="row in rows">
+        <h2>{{row.title}}</h2>
+        <p>{{row.description}}</p>
+      <ion-option-button class="button-positive"
+                          ng-click="share(item)">
+         Share
+       </ion-option-button>
+       <ion-option-button class="button-info"
+                          ng-click="edit(item)">
+         Edit
+       </ion-option-button>
+       <ion-delete-button class="ion-minus-circled"
+                          ng-click="items.splice($index, 1)">
+       </ion-delete-button>
+       <ion-reorder-button class="ion-navicon"
+                  on-reorder="reorderItem(item, $fromIndex, $toIndex)">
+       </ion-reorder-button>
+     </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

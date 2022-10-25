@@ -8,3 +8,7 @@ by Packt
 * Access native device functionalities such as the camera, contact list, e-mail, and maps using NG-Cordova
 * Integrate PhoneGap plugins with NG-Cordova
 * Test your apps to improve and optimize performance
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788293112">https://packt.link/free-ebook/9781788293112 </a> </p>
